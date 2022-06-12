@@ -1,0 +1,131 @@
+.mini-con {
+    position: absolute;
+    right: 0;
+    top: 120%;
+    width: 310px;
+    height: auto;
+    background-color: white;
+    border: 1px solid #CCCCCC;
+    text-align: center;
+}
+
+.mini-triangle {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #CCCCCC;
+    top: -15px;
+    left: 72%;
+    width: 0;
+}
+
+.mini-triangle::before {
+    position: absolute;
+    content: "";
+    margin: 0;
+    padding: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid white;
+    width: 0;
+    top: 3px;
+    left: -10px;
+}
+
+.mini-con > p:nth-child(2) {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mini-con > p:nth-child(3) {
+    color: #8C8C8C;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.mini-con > a button {
+    width: 80%;
+    height: 37px;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #0156FF;
+    background-color: unset;
+    border: 2px solid #0156FF;
+    border-radius: 100px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.mini-order {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-weight: 600;
+    border-top: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.mini-order :nth-child(n) {
+    margin: 3px;
+}
+
+.mini-order p:nth-child(3) {
+    font-size: 13px;
+}
+
+.mini-order img {
+    width: 40px;
+}
+
+.mini-icon div:nth-child(1), .mini-icon div:nth-child(2){
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #CCCCCC;
+    background-color: unset;
+    border-radius: 100px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+p.mini-total {
+    margin-top: 22px;
+    font-size: 13px;
+    color: #8C8C8C;
+    font-weight: 600;
+}
+
+/* .mini-con p:nth-last-child(2) {
+    margin-top: 22px;
+    font-size: 13px;
+    color: #8C8C8C;
+    font-weight: 600;
+} */
+
+.mini-con p:nth-last-child(2) span {
+    font-size: 16px;
+    color: black;
+}
+
+.mini-con > a:nth-last-child(1) button{
+    margin-top: 13px;
+    width: 80%;
+    height: 37px;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    background-color: #0156FF;
+    border: 2px solid #0156FF;
+    border-radius: 100px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}

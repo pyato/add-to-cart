@@ -1,0 +1,148 @@
+table, th, td {
+    border-collapse: collapse;
+}
+
+.cart-con {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cart-con th {
+    text-align: start;
+}
+
+.cart-edit {
+    width: 70%;
+}
+
+.cart-edit > p:nth-child(1) {
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.cart-edit table {
+    width:95%;
+}
+
+.cart-edit > table th {
+    padding-bottom: 13px;
+}
+
+.cart-edit > table td {
+    border-top: 2px solid #CCCCCC;
+    border-bottom: 2px solid #CCCCCC;
+    padding: 40px 0 30px 0;
+    font-weight: 600;
+}
+
+.cart-edit > table td:nth-child(2n) {
+    font-size: 20px;
+}
+
+.cart-order th {
+    text-align: start;
+}
+
+.cart-order {
+    width: 30%;
+    height: 450px;
+    padding: 2rem;
+    margin-top: 122px;
+    background-color: #F5F9FF;
+}
+
+.cart-order table {
+    width: 100%;
+}
+
+.cart-order > table td {
+    padding: 0 0 20px 0;
+    font-weight: 600;
+}
+
+.cart-order > table th {
+    font-size: 24px;
+    padding-bottom: 50px;
+}
+
+.cart-order > table td:nth-child(2n) {
+    text-align: end;
+}
+
+table td.cart-border {
+    padding-bottom: 40px;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+table td.cart-total-table {
+    padding-top: 35px;
+    padding-bottom: 40px;
+}
+
+table td.cart-total-table:nth-child(2) {
+    font-size: 20px;
+}
+
+.cart-order button {
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    height: 50px;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    background-color: #0156FF;
+    cursor: pointer;
+}
+
+.cart-book span {
+    vertical-align: top;
+}
+
+.cart-price, .cart-count, .cart-total, .cart-icon{
+    vertical-align: top;
+}
+
+.cart-icon div:nth-child(1), .cart-icon div:nth-child(2){
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #CCCCCC;
+    background-color: unset;
+    border-radius: 100px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.cart-book img {
+    width: 100px;
+    height: auto;
+    margin-right: 15px;
+    object-fit: cover;
+}
+
+.cart-btn button {
+    margin-top: 25px;
+    width: 200px;
+    font-size: 16px;
+    padding: 7px;
+    border: 2px solid black;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.cart-btn button:nth-child(1) {
+    color: #666666;
+    border-color: #666666;
+    background-color: unset;
+    margin-right: 5px;
+}
+
+.cart-btn button:nth-child(2) {
+    color: white;
+    background-color: black;
+}

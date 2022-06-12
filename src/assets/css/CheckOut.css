@@ -1,0 +1,151 @@
+.checkout-con {
+    display: flex;
+}
+
+.checkout-address {
+    width: 70%;
+}
+
+.checkout-address p:nth-child(1) {
+    margin-top: 56px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.checkout-address p:nth-child(2) {
+    width: 95%;
+    padding: 30px 0 14px 0;
+    font-weight: 600;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.checkout-address-con {
+    margin-top: 20px;
+    width: 80%;
+}
+
+.checkout-address-con span {
+    padding: 7px 0 7px 0;
+}
+
+.checkout-address-con input {
+    padding: 0 20px 0 20px;
+}
+
+.checkout-twoinput {
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkout-twoinput input {
+    height: 40px;
+    border: 1px solid #CCCCCC;
+    border-radius: 100px;
+}
+
+.checkout-input-con {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.checkout-oneinput {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkout-oneinput input {
+    height: 40px;
+    border: 1px solid #CCCCCC;
+    border-radius: 100px;
+}
+
+.checkout-transport {
+    margin-top: 62px;
+}
+
+.checkout-transport p:nth-child(1) {
+    width: 95%;
+    padding: 30px 0 14px 0;
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.radio-boxs {
+    display: flex;
+    flex-direction: column;
+}
+
+.radio-box {
+    display: flex;
+    align-items: center;
+    width: 95%;
+    padding: 30px;
+    margin: 7px 0 7px 0;
+    height: 112px;
+    border: 1px solid #CCCCCC;
+    border-radius: 7px;
+    background-color: unset;
+}
+
+.radio-curcle {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #CCCCCC;
+    border-radius: 100px;
+}
+
+.radio-text {
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.radio-text span:nth-child(1) {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.radio-text span:nth-child(2) {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.checkout-payment p:nth-child(1) {
+    width: 95%;
+    padding: 30px 0 14px 0;
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+#transport1:checked ~ .radio-bocs label[for="transport1"] {
+    border-color: #0156FF;
+}
+#transport1:checked ~ .radio-boxs label[for="transport1"] .radio-curcle {
+    border: 10px solid #0156FF;
+}
+#transport2:checked ~ .radio-boxs label[for="transport2"] {
+    border-color: #0156FF;
+}
+#transport2:checked ~ .radio-boxs label[for="transport2"] .radio-curcle {
+    border: 10px solid #0156FF;
+}
+
+
+#payment1:checked ~ .radio-boxs label[for="payment1"] {
+    border-color: #0156FF;
+}
+#payment1:checked ~ .radio-boxs label[for="payment1"] .radio-curcle {
+    border: 10px solid #0156FF;
+}
+#payment2:checked ~ .radio-boxs label[for="payment2"] {
+    border-color: #0156FF;
+}
+#payment2:checked ~ .radio-boxs label[for="payment2"] .radio-curcle {
+    border: 10px solid #0156FF;
+}

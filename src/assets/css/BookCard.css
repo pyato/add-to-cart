@@ -1,0 +1,160 @@
+.card-con {
+    position: relative;
+    width: 20%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-con:hover {
+    box-shadow: 0px 4px 10px #d8d8d8;
+    height: auto;
+}
+
+.card-con:hover .card-add {
+    display: flex;
+}
+
+.card-con:hover .card-icon {
+    display: block;
+}
+
+.card-con img {
+    width: 40%;
+    height: auto;
+
+}
+
+.card-stock {
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    margin-left: 35px;
+    margin-right: 35px;
+    padding-left: 0;
+}
+
+.card-stock p {
+    margin: 0;
+    padding: 0;
+    padding-left: 7px;
+    color: #78A962;
+    font-size: 10px;
+}
+
+.card-check-stock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15px;
+    height: 15px;
+    background-color: #78A962;
+    border-radius: 100px;
+    text-align: center;
+}
+
+.card-img {
+    text-align: center;
+}
+
+.card-add {
+    display: none;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.card-add button {
+    display: flex;
+    align-items: center;
+    color: #0156FF;
+    border: 2px solid #0156FF;
+    border-radius: 100px;
+    padding: 7px 2rem 7px 2rem;
+    background-color: unset;
+    cursor: pointer;
+}
+
+.card-add span {
+    font-size: 17px;
+    font-weight: 600;
+    padding-left: 20px;
+}
+
+.card-star {
+    padding: 5px;
+    padding-left: 0;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+}
+
+.card-star p {
+    margin: 0;
+    margin-left: 10px;
+    padding: 0;
+    color: #74767A;
+}
+
+.card-title {
+    margin-left: 35px;
+    margin-right: 35px;
+    /* max-width: 80%;
+    margin: 0 auto; */
+}
+
+.card-title a {
+    /* width: 100%; */
+    /* margin-left: 35px;
+    margin-right: 35px; */
+    color: black;
+    text-decoration: none;
+}
+
+.card-price {
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: auto;
+    padding-bottom: 25px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-end; */
+    vertical-align: bottom;
+}
+
+.card-price p:nth-child(1) {
+    margin: 0;
+    margin-top: 20px;
+    padding: 0;
+    color: #7F7F7F;
+    font-size: 20px;
+    text-decoration: 1px line-through;
+}
+
+.card-price p:nth-child(2) {
+    margin: 0;
+    padding: 0;
+    padding-top: 4px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.card-icon {
+    display: none;
+    position: absolute;
+    top: 16px;
+    right: 12.23px;
+}
+
+.card-icon div:nth-child(1), .card-icon div:nth-child(2){
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #8C8C8C;
+    background-color: unset;
+    border-radius: 100px;
+    margin-bottom: 5px;
+}
